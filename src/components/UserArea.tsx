@@ -13,7 +13,7 @@ export const UserArea = () => {
   return (
     <>
       {Boolean(username) ? (
-        <div className="h-screen flex flex-col bg-blue-200">
+        <div className="min-h-screen h-full flex flex-col bg-blue-200">
           <div className="flex-grow ">
             <MessageListArea messageList={msgList} username={username} />
           </div>
